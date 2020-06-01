@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<title>My site</title>
+	</head>
+	<body id = "worker">
+		<header>
+			<div class = "container">
+				<div class="menu">
+					<div class="logo">
+						<a href = "#"><img src="photo\logo.png"></a>
+					</div>
+					<div class="nav_blok">
+						<ul>
+							<li><a  href = "index.html">Home</a></li>
+							<li><a href = "#">Agency</a></li>
+							<li><a href = "sites.html">Works</a></li>
+							<li><a class = "active" href = "worker.html">Workers</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class = "swiper-container">
+			<div class = "swiper-wrapper">
+				<div id = "worker1" class = "workers swiper-slide">
+					<div class="container">
+						<div class = "bio">
+							<h2 class = "posititon">Graphic Designer</h2>
+							<h1 class = "name">Bella Jones</h1>
+							<div class = "social">
+								<a href ="#"><img src="photo\instagram.png"></a>
+								<a href ="#"><img src="photo\youtube.png"></a>
+								<a href ="#"><img src="photo\twitter.png"></a>
+								<a href ="#"><img src="photo\facebook.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id = "worker2" class = "workers swiper-slide">
+					<div class="container">
+						<div class = "bio">
+							<h2 class = "posititon">Programer</h2>
+							<h1 class = "name">Patrick Amoy</h1>
+							<div class = "social">
+								<a href ="#"><img src="photo\instagram.png"></a>
+								<a href ="#"><img src="photo\youtube.png"></a>
+								<a href ="#"><img src="photo\twitter.png"></a>
+								<a href ="#"><img src="photo\facebook.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id = "worker3" class = "workers swiper-slide">
+					<div class="container">
+						<div class = "bio">
+							<h2 class = "posititon">Programer</h2>
+							<h1 class = "name">Jone Bofal</h1>
+							<div class = "social">
+								<a href ="#"><img src="photo\instagram.png"></a>
+								<a href ="#"><img src="photo\youtube.png"></a>
+								<a href ="#"><img src="photo\twitter.png"></a>
+								<a href ="#"><img src="photo\facebook.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id = "worker4" class = "workers swiper-slide">
+					<div class="container">
+						<div class = "bio">
+							<h2 class = "posititon">UI/UX Designer</h2>
+							<h1 class = "name">Nicole Wolf</h1>
+							<div class = "social">
+								<a href ="#"><img src="photo\instagram.png"></a>
+								<a href ="#"><img src="photo\youtube.png"></a>
+								<a href ="#"><img src="photo\twitter.png"></a>
+								<a href ="#"><img src="photo\facebook.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+			  spaceBetween: 30,
+			  pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			  },
+			});
+		</script>
+	</body>
+</html>
